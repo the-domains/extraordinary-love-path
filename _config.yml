@@ -1,28 +1,40 @@
-name: Extraordinary Love Path
-favicon: null
-layout_spectrum: 0.04530449560843408
-typography_spectrum: 0.9792701818514615
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.706814851379022
+  brandStrength: 0.09101367206312716
+  rhythmicContrast: 0.4494450876954943
   brandColors:
     - '#F7EDF0'
     - '#F4CBC6'
     - '#F4AFAB'
     - '#F4EEA9'
     - '#F4F482'
-  brandStrength: 0.09101367206312716
-  lightness: 0.17851071152836084
-  saturation: 0.706814851379022
-  rhythmicContrast: 0.4494450876954943
-purpose: []
+  lightness: 0.1785107115283608
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Extraordinary Love Path
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.9792701818514615
+layout_spectrum: 1
